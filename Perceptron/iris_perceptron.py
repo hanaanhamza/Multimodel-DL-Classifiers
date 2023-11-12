@@ -10,7 +10,7 @@ X = iris.data[:, (0, 1)]
 y = (iris.target == 0).astype(int)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-perceptron = Perceptron(epochs=10)
+perceptron = Perceptron(epochs=10,activation_function='sigmoid')
 
 perceptron.fit(X_train, y_train)
 pred = perceptron.predict(X_test)

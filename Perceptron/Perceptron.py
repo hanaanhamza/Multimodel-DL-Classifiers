@@ -19,6 +19,7 @@ class Perceptron:
         elif self.activation_function == 'relu':
             return 1 if max(0,x)>=0.5 else 0
 
+
     def fit(self, X, y):
         n_features = X.shape[1]
         self.weights = np.random.randint(n_features, size=(n_features))
@@ -29,6 +30,7 @@ class Perceptron:
                 weighted_sum = np.dot(inputs, self.weights) + self.bias
                 prediction = self.activate(weighted_sum)
         print("Training Completed")
+
 
     def predict(self, X):
         predictions = []
