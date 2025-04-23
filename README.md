@@ -4,20 +4,16 @@ This repository contains a collection of deep learning models implemented for va
 ## Project Summaries
 
 ### 🌸 Iris Flower Classification
-- **Models Used**: 
-  - Perceptron (from scratch)
-  - DNN (using deep learning frameworks)
-  - Backpropagation-based NN (manual implementation)
-- **Goal**: Predict the species of iris flowers based on sepal/petal measurements.
+- **Techniques**: Perceptron, Backpropagation, Deep Neural Network (DNN)
+- **Description**: Classifies iris flowers into three species using classical and deep learning methods.
 
-### 🧠 Image Classification & Tumor Detection
-- **Models Used**: CNN
+### 🖼️ Image Classification & Tumor Detection
+- **Techniques**: Convolutional Neural Network (CNN)
 - **Datasets**:
-  - **MNIST**: Handwritten digit recognition.
-  - **Tumor Detection**: Classification of medical images (e.g., brain tumor presence).
-- **Goal**: Apply CNNs to structured pixel data for image classification tasks.
+  - **MNIST**: Digit recognition using handwritten digits.
+  - **Tumor Detection**: Identifies presence of tumors in medical images.
 
 ### 📩 SMS Spam Classification
-- **Model Used**: RNN
-- **Dataset**: SMS Spam Collection Dataset
-- **Goal**: Classify messages as spam or not spam by modeling sequences of text.
+- **Techniques**: Recurrent Neural Network (RNN)
+- **Description**: Classifies SMS messages as spam or not spam using sequential text processing.
+
